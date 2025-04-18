@@ -59,16 +59,6 @@ do
     echo "Fruit: $fruit"
 done
 
-# For loop with a read command
-echo "Enter names (type 'done' to finish):"
-while true; do
-    read name
-    if [ "$name" == "done" ]; then
-        break
-    fi
-    echo "Name: $name"
-done
-
 # For loop with a command substitution
 echo "Files in current directory:"
 for file in $(ls)
