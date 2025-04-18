@@ -17,3 +17,9 @@ echo "Movie Name: $movie_name"
 echo "Movie Year: $movie_year"
 echo "Movie Rating: $movie_rating"
 echo "Movie Director: $movie_director"
+
+# Using variables in a string
+description="The movie '$movie_name' was released in $movie_year and directed by $movie_director. It has a rating of $movie_rating on IMDB site."
+
+# Printing the description
+echo $description
