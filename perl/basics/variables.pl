@@ -5,14 +5,17 @@ use warnings;
 use feature 'say';
 
 # Scalar variable
+say "Using scalar variable:";
 my $scalar = "Hello, World!";
 say "Scalar: $scalar";
 
 # Array variable
+say "Using array variable:";
 my @array = (1, 2, 3, 4, 5);
 say "Array: @array";
 
 # Hash variable
+say "Using hash variable:";
 my %hash = (
     name => "Apple",
     color => "Red",
@@ -21,6 +24,7 @@ my %hash = (
 say "Hash: $hash{name}, Color: $hash{color}, Weight: $hash{weight}";
 
 # Array of arrays
+say "Using array of arrays:";
 my @array_of_arrays = (
     [1, 2, 3],
     [4, 5, 6],
@@ -32,6 +36,7 @@ foreach my $sub_array (@array_of_arrays) {
 }
 
 # Array of hashes
+say "Using array of hashes:";
 my @movies = (
     { name => "The Dark knight", rating => 9.0, year => 2008, director => "Christopher Nolan" },
     { name => "Inception", rating => 8.8, year => 2010, director => "Christopher Nolan" },

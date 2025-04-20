@@ -5,6 +5,7 @@
 a_number=10
 
 # Testing if the number is greater than 5
+echo "Testing if the number is greater than 5:"
 if [ $a_number -gt 5 ]; then
     echo "The number is greater than 5"
 else
@@ -12,6 +13,7 @@ else
 fi
 
 # Testing if the number is equal to 10
+echo "Testing if the number is equal to 10:"
 if [ $a_number -eq 10 ]; then
     echo "The number is equal to 10"
 else
@@ -21,6 +23,7 @@ fi
 a_string="apple"
 
 # Testing if the fruit is "apple"
+echo "Testing if the fruit is apple:"
 if [ "$a_string" = "apple" ]; then
     echo "The fruit is an apple"
 else
