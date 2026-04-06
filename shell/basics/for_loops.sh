@@ -69,11 +69,3 @@ do
     echo "Fruit: $fruit"
 done
 
-# For loop with a command substitution
-echo "For loop with command substitution:"
-echo "Files in current directory:"
-for file in $(ls)
-do
-    echo "File: $file"
-done
-
