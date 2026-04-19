@@ -19,4 +19,4 @@ git config --global alias.lg "log --oneline --graph --all"
 git config --global alias.unstage "reset HEAD --"
 git config --global alias.last "log -1 HEAD"
 git config --global alias.dt "difftool --no-prompt"
-
+git config --global alias.rv "remote -v"
